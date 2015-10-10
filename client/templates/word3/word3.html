@@ -1,0 +1,14 @@
+<template name="word3">
+  {{#each wordlist}}
+    {{#each categories}}
+      {{#each games}}
+      <h3>{{name}}</h3>
+        <ul>
+        {{#each words}}
+          <li>{{this}}</li>
+        {{/each}}
+        </ul>
+      {{/each}}
+    {{/each}}
+  {{/each}}
+</template>

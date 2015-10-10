@@ -1,4 +1,10 @@
-meteor add twbs:bootstrap
-meteor add accounts-ui accounts-password
-meteor remove insecure
-meteor remove autopublish
+#meteor add twbs:bootstrap
+#meteor add accounts-ui accounts-password
+#meteor remove insecure
+#meteor remove autopublish
+
+meteor remove twbs:bootstrap
+meteor add iron:router
+meteor add aldeed:collection2
+meteor add ewall:foundation
+

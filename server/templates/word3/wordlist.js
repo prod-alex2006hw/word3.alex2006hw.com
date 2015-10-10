@@ -1,6 +1,3 @@
-Words = new Mongo.Collection('words');
-Todos = new Mongo.Collection("todos");
-
 if(Meteor.isServer) {
   var words = {
       "categories" : [
